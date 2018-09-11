@@ -1,7 +1,7 @@
 /*
 programa: Ejercicio2
 fecha: 11/09/18
-autor: sletsen duque vargas
+autor: Heiner Colorado Castañeda
 */
 
 #include <conio.h>
@@ -11,7 +11,7 @@ int main()
 {
 	int n, pares, impares;
 	
-	printf( "\n   Introduzca un n%cmero entero (0=Fin): ",150 );
+	printf( "\n   Introduzca un n%cmero entero (0=Fin): ",15 );
 	scanf( "%d", &n );
 	
 	pares = 0;
@@ -24,11 +24,11 @@ int main()
 		else
 			impares++;
 		
-		printf( "\n   Introduzca un n%cmero entero (0=Fin): ",150 );
+		printf( "\n   Introduzca un n%cmero entero (0=Fin): ",15 );
 		scanf( "%d", &n );
 	}
 	
-	printf( "\n   Ha introducido %d n%cmero(s) par(es) y %d impar(es).", pares, 150, impares );
+	printf( "\n   Ha introducido %d n%cmero(s) par(es) y %d impar(es).", pares, 15, impares );
 	
 	getch(); 
 	
